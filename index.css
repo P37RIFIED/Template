@@ -104,8 +104,7 @@ button{
   margin:0 0 0 30px;
   display: flex;
   background-color:#fff;
-  flex-wrap:wrap;
-  justify-content:center;
+  flex-direction: column;
   height:100%;
   align-items: center;
 }
@@ -115,13 +114,12 @@ button{
 }
 .account{
   background-color:#f5f4f5;
-  margin:10px 0 0;
+  margin:20px 0 0;
   border-radius:13px;
   height:20%
 }
 .profile_picture{
   margin:0 0 0 20px;
-  height:90%;
   display:flex;
   align-items:center
 }
@@ -306,4 +304,3 @@ button{
 .feature_visual img{
   width: unset;
 } 
-hello world
