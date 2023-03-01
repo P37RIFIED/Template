@@ -82,11 +82,6 @@ button{
   margin:50px 92px;
   flex-direction: column;
 }
-.info{
-  flex-wrap:nowrap;
-  margin:0;
-  padding:0
-}
 .image_container{
   display:flex;
   width:65%;
