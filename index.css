@@ -85,7 +85,6 @@ button{
 .image_container{
   display:flex;
   width:65%;
-  height:100%;
   flex-wrap:wrap
 }
 .image_container img{
