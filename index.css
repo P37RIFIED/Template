@@ -139,11 +139,6 @@ button{
 .username p{
   margin: 0px;
 }
-.footer_container p{
-  text-align:center;
-  margin:0;
-  flex-wrap:wrap
-}
 .forms{
   justify-content:center;
   flex-wrap:wrap;

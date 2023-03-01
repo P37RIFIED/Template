@@ -3,6 +3,11 @@
     width:100%;
     margin-top: 100px;
   }
+  .footer_container p{
+    text-align:center;
+    margin:0;
+    flex-wrap:wrap
+  }
   .footer{
     display:flex;
     margin:0 92px 50px;
