@@ -198,7 +198,7 @@ button{
   justify-content: space-between;
   align-items: center;
 }
-.feature_visual{
+.detail_visual{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -210,7 +210,7 @@ button{
   padding-left: 10px;
   font-weight: 700;
 }
-.feature_visual:last-of-type{
+.detail_visual:last-of-type{
   border: none;
 }
 .bold{
@@ -298,6 +298,6 @@ button{
 .malto-house img{
   width: 100%;
 }
-.feature_visual img{
+.detail_visual img{
   width: unset;
 }   
