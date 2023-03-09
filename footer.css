@@ -63,7 +63,6 @@
   .footer_text{
     display:flex;
     width:70%;
-
     justify-content:space-between;
   }
   .colum{
@@ -104,6 +103,10 @@
     flex-direction: column;
   }
   .footer_text{
+    text-align: unset;
     width: unset;
+  }
+  .colum{
+    margin-left: 33px;
   }
 }
