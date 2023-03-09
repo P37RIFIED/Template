@@ -1,16 +1,19 @@
+
 .account,.header{
   align-items:center
 }
 .header,.house_info{
   background-image: linear-gradient(270deg, #271A00, #000000);
-  height:70px;
   display:flex
 }
-.container,.header,.house_info,.info,.links,.sub_container,.user_info{
+.header,.house_info,.info,.links,.sub_container,.user_info{
   display:flex
 }
 .colum a,.links a{
   text-decoration:none
+}
+.info{
+  flex-wrap: wrap;
 }
 body{
   margin:0;
@@ -22,14 +25,14 @@ button{
 }
 .header{
   justify-content: space-between;
-  padding:0 92px;
+  padding:20 92px;
   border-bottom:1px solid #fff
 }
 .logo{
   width:15%
 }
 .logo img{
-  width:100%
+  width: 80%;
 }
 .links{
   width:50%;
@@ -73,11 +76,7 @@ button{
 .house_info p{
   color:grey
 }
-.container{
-  width:100%;
-  justify-content:center;
-  flex-wrap:wrap
-}
+
 .sub_container{
   margin:50px 92px;
   flex-direction: column;
@@ -301,3 +300,63 @@ button{
 .detail_visual img{
   width: unset;
 }   
+@media screen and (max-width: 425px){
+  .links{
+    display: none;
+  }
+  .logo{
+    width: 100%;
+    margin: 0;
+  }
+  .header, .house_info{
+    padding: 20px 0 20px 20px;
+    margin: 0;
+  }
+  .house_info{
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .price{
+    text-align: left;
+    padding-top: 10px;
+  }
+  .image_container, .user_info_container{
+    width: 100%;
+    display: flex;
+  }
+  .small_container{
+    width: 100%;
+  }
+  .sub_container{
+    margin: 10px 10px;
+  }
+  .user_info{
+    margin: 10px 0 0 0;
+  }
+  .forms{
+    height: 400px;
+  }
+  .forms input, .forms textarea{
+    border: none;
+    border-bottom: 1px #000000 solid;
+    border-radius: 0;
+  }
+  .forms textarea{
+    padding-top: 55px;
+  }
+  .similar_houses{
+    margin-top: 10px;
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .line{
+    width: 50%;
+  }
+  .malto-house{
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .feature_description{
+    overflow-x: scroll;
+  }
+}

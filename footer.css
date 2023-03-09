@@ -81,3 +81,29 @@
     color:#979797;
     width: 100%;
   }
+@media screen and (max-width: 425px) {
+  .footer_head{
+    flex-direction: column;
+  }
+  .footer{
+    margin: 0;
+    display: flex;
+  }
+  .footer_logo{
+    align-self: center;
+    width: 30%;
+
+  }
+  .footer button{
+    width: 90%;
+    align-self: center;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .footer_tail{
+    flex-direction: column;
+  }
+  .footer_text{
+    width: unset;
+  }
+}
