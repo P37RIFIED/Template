@@ -378,4 +378,11 @@ button {
   .feature_description {
     overflow-x: scroll;
   }
+  .preview{
+    justify-content: flex-start;
+  }
+  .preview img{
+    width: 20%;
+    margin: 0 10px 10px 0;
+  }
 }
