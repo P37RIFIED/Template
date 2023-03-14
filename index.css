@@ -378,10 +378,10 @@ button {
   .feature_description {
     overflow-x: scroll;
   }
-  .preview{
+  .preview {
     justify-content: flex-start;
   }
-  .preview img{
+  .preview img {
     width: 20%;
     margin: 0 10px 10px 0;
   }
