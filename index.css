@@ -317,6 +317,9 @@ button {
   width: unset;
 }
 @media screen and (max-width: 425px) {
+  .sub_container{
+    padding: 0 10px;
+  }
   .links {
     display: none;
   }
@@ -380,9 +383,12 @@ button {
   }
   .preview {
     justify-content: flex-start;
+    margin-bottom: 10px;
+
   }
   .preview img {
     width: 20%;
     margin: 0 10px 10px 0;
   }
 }
+

@@ -105,8 +105,10 @@
   .footer_text {
     text-align: unset;
     width: unset;
+    justify-content: space-between;
   }
   .colum {
-    margin-left: 33px;
+    margin: 0;
+    padding: 0 0 0 20px;
   }
 }
