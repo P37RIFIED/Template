@@ -101,14 +101,21 @@
   }
   .footer_tail {
     flex-direction: column;
+    justify-content: center;
   }
   .footer_text {
-    text-align: unset;
-    width: unset;
-    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
   }
   .colum {
-    margin: 0;
-    padding: 0 0 0 20px;
+    display: flex;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .colum p, .colum a{
+    text-align: center;
   }
 }
