@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+            let qns;
+            let index=0;
+            qns = ["Q2.Who is the father of the computer",
+             "Q3.What is the sie of moon", 
+             "Q4.What is the nearest galaxy from earth"];
+            function next(){
+                document.getElementById("question").innerHTML=qns[index];
+                index = index+1;
+            }
+            function prev(){
+                document.getElementById("question").innerHTML=qns[index-1];
+                index--;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Demo Javascipt</h2>
+        <p id="question">Q1.What is the value of pi</p>
+        <button id="btn" onclick="next()">Next</button>
+        <button id="btn" onclick="prev()">Previous</button>
+    </body>
+</html>
