@@ -3,7 +3,7 @@
 <head>
     <script>
         let qns;
-        let index = 0;
+        let index = -1;
         qns = ["Q1.What is the value of pi",
             "Q2.Who is the father of the computer",
             "Q3.What is the sie of moon",
@@ -11,19 +11,21 @@
             "Q.5 What is a black hole?",
             "Q.6 What is distance of sun from earth?"];
         function next() {
-            document.getElementById("question").innerHTML = index;
             index = index + 1;
+            document.getElementById("question").innerHTML = qns[index];
+            console.log(index);
         }
         function prev() {
-            document.getElementById("question").innerHTML = index;
             index = index - 1;
+            document.getElementById("question").innerHTML = qns[index];
+            console.log(index);
         }
     </script>
 </head>
 
 <body>
     <h2>Demo Javascipt</h2>
-    <p id="question">Q1.What is the value of pi</p>
+    <p id="question">Are you ready for the quiz. Press Next if you are</p>
     <button id="btn" onclick="next()">Next</button>
     <button id="btn" onclick="prev()">Previous</button>
 </body>
