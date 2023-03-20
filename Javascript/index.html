@@ -13,17 +13,13 @@
             "The End"];
         function next() {
             index = index + 1;
-            if (index > qns.length - 1) {
-                index = qns.length - 1;
-            }
+            if (index > qns.length - 1) { index = qns.length - 1; }
             document.getElementById("question").innerHTML = qns[index];
             console.log(index);
         }
         function prev() {
             index = index - 1;
-            if (index < 0) {
-                index = 0;
-            }
+            if (index < 0) { index = 0; }
             document.getElementById("question").innerHTML = qns[index];
             console.log(index);
         }
