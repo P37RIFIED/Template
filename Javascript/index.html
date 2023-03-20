@@ -4,16 +4,19 @@
     <script>
         let qns;
         let index = 0;
-        qns = ["Q2.Who is the father of the computer",
+        qns = ["Q1.What is the value of pi",
+            "Q2.Who is the father of the computer",
             "Q3.What is the sie of moon",
-            "Q4.What is the nearest galaxy from earth"];
+            "Q4.What is the nearest galaxy from earth",
+            "Q.5 What is a black hole?",
+            "Q.6 What is distance of sun from earth?"];
         function next() {
-            document.getElementById("question").innerHTML = qns[index];
+            document.getElementById("question").innerHTML = index;
             index = index + 1;
         }
         function prev() {
-            document.getElementById("question").innerHTML = qns[index - 1];
-            index--;
+            document.getElementById("question").innerHTML = index;
+            index = index - 1;
         }
     </script>
 </head>
